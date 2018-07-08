@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Loops</title>
+	
+</head>
+<body>
+	<h1>Loops</h1>
+<script type="text/javascript">
+		
+		/* while(someCondition){
+			//run some code
+		}*/
+
+
+//lets print a number from 1-5
+	var count = 5;
+
+	while(count <= 20){
+		console.log("count is: " + count);
+		//This will increment number each time the loop executes
+		count+=2;
+	}
+
+//Lets print each character in a string
+var str = "hello";
+//This is the number that we used to access the character inside our string
+//First character index is at zero
+var count = 0;
+// The str.length will be 5, so 0 less than 5 means, h < hello
+while(count < str.length){
+	console.log(str[count]);
+	count++;
+}
+
+
+//Another Example of string using while loop
+var charac = "Rayhan";
+
+var counter = 0;
+
+while (counter < charac.length){
+	console.log(charac[counter]);
+	counter++;
+}
+
+//Since 11 is not less than 10 so it will print the odd numbers from 1 to 9
+
+
+var num = 1;
+/*
+while(num <= 10){
+	console.log("The number is: " + num);
+	num+=2;
+}*/
+
+//Multiples of 4 upto 20
+while (num <= 20){
+	if(num % 4 === 0){
+		console.log("The number is:" + num);
+	}
+	num++;
+}
+
+
+
+</script>
+</body>
+</html>

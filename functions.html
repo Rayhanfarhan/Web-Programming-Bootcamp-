@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Functions</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		//Functions are pieces of codes that performs actions and can be run from different areas
+
+		//We can use existing js functions or we can make custom functions
+
+		//Function Declaration
+
+		function sayHello(){
+			console.log("Hello");
+		}
+
+		//Call the function
+		sayHello();
+
+
+		//Function expression(anonymous function)
+		 var sayBye = function() {
+		 	console.log("Bye");
+		 }
+		 sayBye();
+
+		 //Use the return keyword
+		function multiply(a,b){
+			return a * b;
+		
+		}
+		alert(multiply(5,6));
+
+		//Practice
+		function square(num){
+			console.log(num*num);
+		}
+		square(4);
+		square(10);
+		square(16);
+
+		function sayHello(name){
+			console.log("Hello there " + name + " !");
+		}
+		sayHello("Mark");
+
+		//Area of a rectangle
+		function area(length, width){
+			console.log(length * width);
+		}
+		area(9,2);
+
+		//Square the numbers
+		function squares(x){
+			return (x * x);
+		}
+		var result = squares(16);
+		alert(result);
+
+		//Capitalize the first letter
+		// .charAt() takes the position according to index, .slice() to move onwards according to the index
+		function capitalize(name){
+			return name.charAt(0).toUpperCase() + name.slice(1);
+		}
+		var city = "paris";
+		var capt = capitalize(city);
+		alert(capt);
+
+		//As soon as something is returned from a function, the execution stops and function no longer works. To analyze the program lets
+
+
+	</script>
+</body>
+</html>

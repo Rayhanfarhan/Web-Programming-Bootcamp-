@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Primitive types</title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+		//Numbers with arithmetic operations
+
+		/* console.log(3+4);
+		console.log(5-4);
+		console.log(3*5);
+		console.log(12/4);
+		console.log((3+4)*2);
+		console.log(12%5); */
+
+
+		//Strings are just the text manipulation
+
+		console.log("Rayhan Farhan");
+		//String concatenation
+		console.log("Hello " + "World");
+		//Escape Sequence 
+		console.log("Hello there this isn\'t the time");
+		//Js converts the number to a string
+		console.log(10 - "3");
+		//Not a number NaN
+		console.log("Hello" - "Bye");
+		//Length property
+		console.log("hello world".length);
+		//Access individual characters using [] and an index
+		console.log("hello"[0]);
+
+
+		//Boolean
+		//Accepts only true and false
+		console.log(3 >2);
+		console.log(5 > 10);
+		console.log(3 === 3);
+		console.log(3 !== 3);
+
+
+		//Variables
+		var george = "These pretzels are making me thirsty" + "!";
+		console.log(george);
+		//This function stores a data, it auto changes it to string
+
+		/*Built in methods*/
+		//Prompt - it asks user for inputs
+		//alert - it shows anything on a popup
+		//console.log - debug inside a console	
+
+		//In js Variables can hold any type of data
+
+		//Simple calculator
+		var first = prompt("Enter first number");
+		var second = prompt("Enter second number");
+		//Use the number method to turn string to a number
+		var sum = Number(first) + Number(second);
+
+		alert("Your sum is: " + sum);
+
+		//Variable can be reassigned
+		var a = true;
+		a = "Hello"
+		alert(a);
+
+		//Undefined means that the variables is not assigned
+
+		//Null means "explicitly nothing"
+		var currentPlayer = "charlie";
+		currentPlayer = null;
+		console.log(currentPlayer);
+
+
+		console.log("hello".length % "Hi\\".length);
+		
+
+
+
+	</script>
+</body>
+</html>
